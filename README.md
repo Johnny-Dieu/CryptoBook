@@ -3,7 +3,7 @@ A React project that utilizes RapidAPIs to report the latest news and price of t
 
 # Technologies Used
 - React
-  - [React ChartJS2](https://www.npmjs.com/package/react-chartjs-2)
+  - [React-Chartjs2](https://www.npmjs.com/package/react-chartjs-2)
   - [Millify](https://www.npmjs.com/package/millify)
 - RapidAPI
   - [CoinRanking API](https://rapidapi.com/Coinranking/api/coinranking1)
