@@ -14,7 +14,6 @@
 }
 
 .avatar {
-  height: 120px;
   width: auto;
   margin: 0;
   padding: 0;
@@ -45,6 +44,7 @@ a:hover {
   padding: 20px;
 }
 .nav-container {
+  width: auto;
   position: fixed;
   left: 0;
   margin: 10px;
@@ -62,7 +62,7 @@ a:hover {
 }
 
 .ant-menu {
-  background: #4882d3;
+  background-color: #4882d3;
   color: white;
   width: 20vw;
 }
@@ -73,6 +73,7 @@ a:hover {
 
 .logo {
   margin: 0 0 0 15px;
+  width: auto;
 }
 .logo a {
   color: white;
@@ -94,9 +95,9 @@ a:hover {
   align-items: center;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
   .main {
-    margin-left: 50px;
+    margin-left: 40px;
   }
 }
 
@@ -106,20 +107,33 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1190px) {
   .main {
     margin-left: 100px;
   }
+  .ant-menu {
+    background-color: #4882d3;
+    color: white;
+    width: 29vw;
+  }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1299px) {
+  .ant-menu {
+    background-color: #4882d3;
+    color: white;
+    width: 23vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .app {
     flex-direction: column;
     overflow: hidden;
   }
 
   .navbar {
-    flex: 1;
+    flex: 2;
   }
 
   .main {
@@ -417,9 +431,9 @@ a:hover {
   background-color: #c4fb05;
 }
 
-.ant-avatar {
+/* .ant-avatar {
   font-size: 140% !important;
-}
+} */
 
 .ant-menu-item-selected {
   background-color: #c4fb05 !important;
